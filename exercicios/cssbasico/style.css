@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* SELETORES PERSONALIZADOS
+# = id 
+. = class 
+: = pseudo-class
+:: = pseudo-element
+> = clildren */
+
+div{
+    display: inline-block;
+    background-color: blue;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+    width: 420px;
+    padding-right: 10px;
+    
+}
+div:hover{
+    background-color: white;
+    color: black;
+}
+.d{
+    margin-right: 10px;
+}
+#d1{
+    margin-left: 10px;
+}
+.links{
+    color: blue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.links:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+}.links:active{
+    color: red;
+}
+.links::after{
+    content: '←';
+}
+.links::before{
+    content: '→';
+}

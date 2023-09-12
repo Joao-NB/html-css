@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.image-with-text {
+    overflow: auto; /* Para limpar o float */
+    background-color: #616161;
+    padding: 80px;
+}
+h1{
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 24px;
+}
+.image-with-text img {
+    border-radius: 10%;
+    float: left; /* Ou 'float: right;' para colocar a imagem à direita */
+    margin-right: 15px; /* Espaço entre a imagem e o texto */
+}
+body{
+    background-color: #F2F2F2;
+}
+p{
+    color: rgb(153, 159, 165);
+}

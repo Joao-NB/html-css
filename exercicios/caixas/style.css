@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+h1{/* h1{ (box-level) */
+
+    /* se eu quiser transformar em inline-level: display: inline; */
+
+    border-width: 10px;
+    border-style: solid;
+    
+
+    /* o mesmo que: border: 10px solid red; 
+    oou seja: largura, tipo e cor. O mesmo vale pro outline*/
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    /* o mesmo que padding: 10px; */
+
+    margin: 40px auto 20px auto;
+
+    /* o mesmo que margin: cima, direita(auto: centralizado), baixo, esquerda(auto: centralizado). O mesmo vale pro padding*/
+
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color: blue;
+}
+nav{
+    background-color: gray;
+    padding: 1px;
+    box-shadow: 1px 1px 1px black;
+}
+a { /* a{ inline-level */
+
+    /* se eu quiser transformar em box-level: display: block; */
+
+    padding: 10px;
+    
+    margin: 10px 10px 10px 10px;
+
+    border: 10px solid red
+}
+main{
+    background-color: white;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+}

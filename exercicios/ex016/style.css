@@ -1,0 +1,53 @@
+         @charset "UTF-8";
+         @font-face {
+            font-family: 'love' ;
+            src: url('Be My Valentine.otf') format('opentype'), url('Be My Valentine.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /* tipos de format()
+            - opentype (otf)
+            - truetype (ttf) */
+            }
+         *{
+            font-family: 'love';
+         }
+         body{
+            
+           background-image: linear-gradient(to right, #034159, #025951,#02735E, #038C3E, #0CF25D );
+            /* shorthand font 
+            font-style -> font-weight -> font-size -> font-family 
+            
+            font-size: 17px;
+            font-weight: normal ;
+            font-style: italic;
+            
+            */
+            text-decoration: underline;
+            font: italic bold 19px Arial
+            
+         }
+         img{
+             display: block;
+             margin: auto;
+         }
+         h1{
+            
+            text-align: center;
+            color:#025951 ;
+            text-shadow: 1px 1px 1px #013b35c4;
+         }
+         h2{
+            color: #034159;
+         }
+         p{
+            text-align: justify;
+         }
+         main{
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px #01443d80;
+            width: 600px;
+            padding: 10px;
+            margin: auto;
+         }
+   

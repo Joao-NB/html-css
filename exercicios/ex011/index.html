@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>
+        Tente abrir esse site em outros dispositivos ou simplesmente diminua seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/fotop.png" type="image/png">
+         <source media="(max-width: 1000px )" srcset="imagens/fotom.png" type="image/png">
+        <img src="imagens/fotog.png" alt="">
+    </picture>
+    <h1>Vamos reproduzir áudio em HTML5</h1>
+    <audio src="midia/Mess Call - USAF Heritage of America Band .mp3" controls autoplay></audio> <!--MP3 WAV OGG-->
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/Mess Call - USAF Heritage of America Band .mp3" type="audio/mpeg">
+        <source src="midia/Mess Call - USAF Heritage of America Band .mp3" type="audio/ogg">
+        <source src="midia/Mess Call - USAF Heritage of America Band .mp3" type="audio/wav">
+        <p>Caso o áudio não funcione, clique <a href="midia/Mess Call - USAF Heritage of America Band .mp3">aqui para baixa-lo</a></p>
+    </audio>
+    <h1>Vídeo hospedado localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video src="midia/pexels-fuzail-ahmad-10820009 (720p).mp4" width="200" poster="imagens/aoN3Pow_700b.jpg" controls></video>
+    <video controls>
+        <source media="(min-width: )" srcset="" type=""> <!--Arquivos: mp4 m4v webm-->
+        <p>Seu navegador não tem compatibilidade com o vídeo</p>
+    </video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/w8XmFDBgV38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
