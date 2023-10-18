@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.container{ 
+    position: relative;
+    width: 99vw;
+    height: 100vh;
+    margin: auto;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+}
+.text1{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    font-size: 140px;
+    background: linear-gradient(to right, rgb(4, 4, 50), white) ;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+nav#menu{
+    position: absolute;
+    top: 40px;
+    left: 68%;
+    margin-left:0px;
+}
+a#a1{
+    position: absolute;
+    top: 570px;
+    left: 25px;
+}
+a#a2{
+    position: absolute;
+    top: 570px;
+    left: 30px;
+}
+a#a3{
+    position: absolute;
+    top: 570px;
+    left: 50px;
+}

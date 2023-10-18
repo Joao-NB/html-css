@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    overflow-y: scroll;
-    overflow-x: hidden;
+    
 }
 .container{
     position: relative;
@@ -46,7 +45,7 @@ body{
     color: rgb(102, 200, 224);
 }
 .butom1{
-    position: absolute;
+    position: absolute; 
     top: 80%;
     left: 50px;
     font-size: 20px;

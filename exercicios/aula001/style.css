@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(to right, green, blue, aqua);
+}
+header{
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 19px;
+    height: 10px;
+    width: 190px;
+    align-items: center;
+    background-color: rgb(5, 32, 32);
+    margin-left:300px;
+    margin-top: 190px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    padding-bottom: 100px;
+}   
